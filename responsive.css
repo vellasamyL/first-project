@@ -1,60 +1,73 @@
-@media (max-width:768px){
-    .container{
-   width:100%;
+@media (max-width:768px) {
+    .container {
+        width: 100%;
     }
-           /* banner-section */
-    .banner-sec{
+
+    /* banner-section */
+    .banner-sec {
         padding: 150px 0;
     }
-    .banner-head h1{
+
+    .banner-head h1 {
         font-size: 30px;
         margin-top: 140px;
     }
-    .banner-head h4{
+
+    .banner-head h4 {
         margin-top: 30px;
     }
-    .banner-btn{
+
+    .banner-btn {
         margin-top: 50px;
     }
+
     /*---features-section--*/
-    .Features{
+    .Features {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
         text-align: center;
     }
-    .Features p{
+
+    .Features p {
         margin-top: 10px;
     }
+
     /*  adding section */
-    .port-sec{
+    .port-sec {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
-      }
-      .Recent h1::after{
-        width:50%;
-      }
-      /* profile-section */
-      .profile-para{
+    }
+
+    .Recent h1::after {
+        width: 50%;
+    }
+
+    /* profile-section */
+    .profile-para {
         text-align: center;
-      }
-      /* footer section */
-      .footer-paras{
+    }
+
+    /* footer section */
+    .footer-paras {
         display: flex;
         flex-wrap: wrap !important;
-     }
-     .footer-con h1{
-       text-align: center;
-     }
-     .footer-con2 h1{
-        text-align: center;
-     }
+    }
 
-     .finish-1{
+    .footer-con h1 {
         text-align: center;
-         }
-     .finish-2{
-    margin-top: 30px ;
-     }
+    }
+
+    .footer-con2 h1 {
+        text-align: center;
+    }
+
+    .finish-1 {
+        text-align: center;
+    }
+
+    .finish-2 {
+        margin-top: 30px;
+    }
 }
